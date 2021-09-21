@@ -1,0 +1,8 @@
+01. Membuat folder kosong
+         mkdir aditya-galih
+02. Membuat file README.md
+         cd aditya-galih --> berpindah ke folder adiytya-galih
+         touch README.md
+         vim README.md --> mengisi file README.md
+            Isi file:
+            Halo perkenalkan aku halaman utama
