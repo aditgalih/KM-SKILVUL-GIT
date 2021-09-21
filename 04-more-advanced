@@ -1,2 +1,14 @@
 01. What is the difference between git reset and git revert. When would you use one over the other?
-      
+      git reset: delete a commit we want to delete and reset/delete the commit history from the commit we delete until the final commit
+      git revert: delete a commit we want to delete and make it as a commit without affecting the commits we did after that deleted commit
+
+02. What is the difference between git merge and git rebase. When would you use one over the other?
+      git merge: merging branches without affecting their previous commit histories, good at a group project.
+      git rebase: merging commit histories at all branches to qqmain/master branch and rewrite their previous commit histories as a new commits, good at an individual project.
+
+03. What is the difference between git stash pop and git stash apply. When would you use one over the other?
+      git stash pop: deleting the drafted files after using it permanently
+      git stash apply: saving back the deleted file to the draft so we can reuse it again whenever we need
+
+04. What kinds of things can you do in interactive mode when rebasing?
+      git rebase -i
