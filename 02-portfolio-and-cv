@@ -20,5 +20,43 @@
             Ini adalah file CV
 06. Dokumentasikan dengan commit
          git add . && git commit -m "Inisialisasi CV"
-07. 
+07. Menuliskan 3 nama perusahaan dan setiap nama didokumentasikan dengan commit
+         git log --graph --> mendapatkan commit hash cv.txt
+         git reset c8dff65 --> commit hash cv.txt
+         git reset HEAD cv.txt --> mengembalikan ke working directory
+         vim cv.txt
+            Isi file:
+            Ini adalah file CV
+            1. Wijaya Karya
+         git add . && git commit -m "Menambahkan perusahaan pertama"
+         git reset c8dff65 --> commit hash cv.txt
+         git reset HEAD cv.txt --> mengembalikan ke working directory
+         vim cv.txt
+            Isi file:
+            Ini adalah file CV
+            1. Wijaya Karya
+            2. PP
+         git add . && git commit -m "Menambahkan perusahaan kedua"
+         git reset c8dff65 --> commit hash cv.txt
+         git reset HEAD cv.txt --> mengembalikan ke working directory
+         vim cv.txt
+            Isi file:
+            Ini adalah file CV
+            1. Wijaya Karya
+            2. PP
+            3. Pertamina
+         git add . && git commit -m "Menambahkan perusahaan ketiga"
+08. Kembali ke branch master
+         git checkout master
+09. Ubah file README.md
+         vim README.md
+         Isi file:
+            Halo perkenalkan aku halaman utama
+            Ini adalah update pertama pada branch master
+         git add . && git commit -m "update master pertama"
+10. Gabungkan branch cv ke branch master
+         git merge cv
+11. Unggah repository ke GitHub
+         git push
+         
          
