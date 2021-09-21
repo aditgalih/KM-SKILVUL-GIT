@@ -1,0 +1,29 @@
+01. Create a folder called git-basic
+         mkdir git-basic
+02. cd into the git-basic folder
+         cd git-basic
+03. Create a file called first.txt
+         touch first.txt
+04. Initialize an empty git repository
+         git init
+05. Add first.txt to the staging area
+         git add first.txt
+06. Commit with the message "adding first.txt"
+         git commit -m "adding first.txt"
+07. Check out your commit with git log
+         git log --graph
+08. Create another file called second.txt
+         touch second.txt
+09. Add second.txt to the staging area
+         git add second.txt
+10. Commit with the message "adding second.txt"
+         git commit -m "adding second.txt"
+11. Remove the first.txt file
+         git log --graph --> get commit hash for first.txt
+         git revert c8ddf65 --> commit hash first.txt
+12. Add this change to the staging area
+         git add .
+13. Commit with the message "removing first.txt"
+         git commit -m "removing first.txt"
+14. Check out your commits using git log
+         git log --graph
