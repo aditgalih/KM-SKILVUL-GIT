@@ -57,6 +57,8 @@
 10. Gabungkan branch cv ke branch master
          git merge cv
 11. Unggah repository ke GitHub
+         git remote add tugas-git github.com/aditgalih/tugas-git --> menambahkan remote repository ke repository lokal
          git push
+         git push --set -upstream tugas-git master
          
          
