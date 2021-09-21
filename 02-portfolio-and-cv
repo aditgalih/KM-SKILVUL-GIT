@@ -8,7 +8,7 @@
             Halo perkenalkan aku halaman utama
 03. Inisialisasi folder dengan Git lalu dokumentasi dengan commit
          git init
-         git add.
+         git add .
          git commit -m "Inisialisasi Git Repository"
 04. Membuat branch baru bernama cv
          git branch cv
@@ -18,7 +18,7 @@
          vim cv.txt
             Isi file:
             Ini adalah file CV
-06. Dokumentasikan dengancommit
-         git add. && git commit -m "Inisialisasi CV"
+06. Dokumentasikan dengan commit
+         git add . && git commit -m "Inisialisasi CV"
 07. 
          
